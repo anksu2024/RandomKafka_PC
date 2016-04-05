@@ -8,7 +8,7 @@ import java.util.Properties;
 import java.util.Random;
 
 /**
- * Project Name: MyProducer (Java)
+ * Project Name: KafkaProducer (Java)
  * Dated: April 04, 2016
  */
 

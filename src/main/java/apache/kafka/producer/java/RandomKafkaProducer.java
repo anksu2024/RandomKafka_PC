@@ -1,7 +1,7 @@
 package apache.kafka.producer.java;
 
 /**
- * Project Name: RandomKafkaProducer (Java)
+ * Project Name: KafkaProducer (Java)
  * Dated: April 04, 2016
  */
 
