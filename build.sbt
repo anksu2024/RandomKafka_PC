@@ -1,4 +1,4 @@
-name := "RandomKafkaProducer"
+name := "RandomKafka_PC"
 
 version := "1.0"
 
