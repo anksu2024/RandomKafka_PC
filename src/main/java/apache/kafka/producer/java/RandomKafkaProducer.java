@@ -9,7 +9,8 @@ public class RandomKafkaProducer {
     public static void main(String... args) throws InterruptedException {
         if (args.length != 4) {
             System.out
-                    .println("Usage: java -cp <kafka-broker:port> <topic> <# of events> <duration between each event>");
+                    .println("Usage: java -cp <kafka-broker:port> <topic> " +
+                            "<# of events> <duration between each event>");
             return;
         }
 
@@ -19,11 +20,11 @@ public class RandomKafkaProducer {
         long intraEventDuration = Long.parseLong(args[3]);
 
         System.out.println("Hello from Random Kafka Producer!!");
-        MyProducer kakfa_producer = new MyProducer(kafkaBroker, topic, events, intraEventDuration);
+        MyProducer kafka_producer = new MyProducer(kafkaBroker, topic, events, intraEventDuration);
 
         System.out.println("Sending Producer Data!!");
 
-        kakfa_producer.processAndPush();
+        kafka_producer.processAndPush();
 
         System.out.println("Data send to the broker.. Pull Data from Consumer!!");
     }
