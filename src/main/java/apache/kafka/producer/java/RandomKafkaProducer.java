@@ -26,6 +26,6 @@ public class RandomKafkaProducer {
 
         kafka_producer.processAndPush();
 
-        System.out.println("Data send to the broker.. Pull Data from Consumer!!");
+        System.out.println("Data sent to the broker.. Pull Data from Consumer!!");
     }
 }
