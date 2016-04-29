@@ -1,4 +1,6 @@
-# Kafka_PC
+# RandomKafka_PC
+
+PC => Producer Consumer
 
 Introduction:
 -------------
